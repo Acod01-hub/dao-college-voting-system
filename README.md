@@ -64,23 +64,6 @@ npm run build
 
 The built files will be in the `dist` folder, ready for deployment.
 
-## 🌐 Deploy to Vercel
-
-### Option 1: Deploy via Vercel CLI
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Option 2: Deploy via GitHub
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Click "Import Project"
-4. Select your repository
-5. Vercel will auto-detect Vite and deploy
-
 **Build Settings:**
 - Framework Preset: Vite
 - Build Command: `npm run build`
@@ -179,27 +162,3 @@ const candidates = [
   // ... more candidates
 ];
 ```
-
-### Change Color Scheme
-
-Update colors in `tailwind.config.js` or directly in component classes.
-
-## 📝 License
-
-MIT License - feel free to use this project for your hackathon or educational purposes!
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-## 👨‍💻 Author
-
-Built for hackathons and educational demonstrations of DAO-based voting systems.
-
-## 🌟 Show Your Support
-
-Give a ⭐️ if this project helped you!
-
----
-
-**Note:** This is a prototype built for demonstration purposes. The Web3 functionality is mocked for the demo. For production use, integrate with actual smart contracts and blockchain networks.
